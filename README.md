@@ -1,4 +1,3 @@
-```markdown
 # 🛒 Mini Grocery App
 
 <div align="center">
@@ -6,8 +5,11 @@
 <!-- TODO: Add project logo (e.g., `public/logo.png`) -->
 
 [![GitHub stars](https://img.shields.io/github/stars/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/stargazers)
+
 [![GitHub forks](https://img.shields.io/github/forks/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/network)
+
 [![GitHub issues](https://img.shields.io/github/issues/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/issues)
+
 [![GitHub license](https://img.shields.io/badge/license-UNLICENSED-blue.svg?style=for-the-badge)](LICENSE) <!-- TODO: Add an explicit LICENSE file (e.g., MIT, Apache) -->
 
 **A mobile-first grocery management solution designed for small, one-person businesses.**
@@ -43,18 +45,27 @@ The Mini Grocery App is a client-side mobile application tailored for individual
 ## 🛠️ Tech Stack
 
 **Frontend:**
+
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 [![Ionic Framework](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)](https://ionicframework.com/)
+
 [![Ionicons](https://img.shields.io/badge/Ionicons-3880FF?style=for-the-badge&logo=ionic&logoColor=white)](https://ionic.io/ionicons)
 
 **Build Tools & Mobile:**
+
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
 [![Capacitor](https://img.shields.io/badge/Capacitor-313131?style=for-the-badge&logo=capacitor&logoColor=white)](https://capacitorjs.com/)
 
 **Development & Linting:**
+
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
 [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+
 [![Oxlint](https://img.shields.io/badge/Oxlint-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://oxlint.rs/)
 
 ## 🚀 Quick Start
@@ -158,10 +169,15 @@ To run the application as a native Android app:
 The `package.json` includes several scripts for development and building:
 
 | Command           | Description                                       |
+
 | :---------------- | :------------------------------------------------ |
+
 | `npm run dev`     | Starts the development server for the web app.    |
+
 | `npm run build`   | Builds the app for production (web assets).       |
+
 | `npm run lint`    | Runs Oxlint to check code for errors and style issues. |
+
 | `npm run preview` | Serves the production build locally.              |
 
 ### Capacitor CLI Commands
@@ -177,6 +193,7 @@ Useful Capacitor commands for mobile development:
 The project uses Oxlint for static code analysis.
 
 ```bash
+
 # Run the linter to check for code quality issues
 npm run lint
 ```
