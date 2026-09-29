@@ -254,4 +254,3 @@ This project is currently **UNLICENSED**. Please choose and add a license (e.g.,
 Made with ❤️ by [thiennguyenk01](https://github.com/thiennguyenk01)
 
 </div>
-```
