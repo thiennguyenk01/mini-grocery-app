@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tạp Hóa Mini</string>
+    <string name="title_activity_main">Tạp Hóa Mini</string>
+    <string name="package_name">com.taphoamini.app</string>
+    <string name="custom_url_scheme">com.taphoamini.app</string>
+</resources>

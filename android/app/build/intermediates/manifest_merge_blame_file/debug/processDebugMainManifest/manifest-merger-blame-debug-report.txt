@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taphoamini.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <!-- Permissions -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:40:5-67
+13-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:40:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.taphoamini.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.taphoamini.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+20    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+21-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+22
+23    <application
+23-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:4:5-36:19
+24        android:allowBackup="true"
+24-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:5:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.17.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\11094a199bb7945826b161d8a9c17beb\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:6:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:7:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:8:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:9:9-35
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:10:9-40
+33        <activity
+33-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:12:9-25:20
+34            android:name="com.taphoamini.app.MainActivity"
+34-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:14:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
+35-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:13:13-148
+36            android:exported="true"
+36-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:18:13-36
+37            android:label="@string/title_activity_main"
+37-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:15:13-56
+38            android:launchMode="singleTask"
+38-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:17:13-44
+39            android:theme="@style/AppTheme.NoActionBarLaunch" >
+39-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:16:13-62
+40            <intent-filter>
+40-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:20:13-23:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:21:17-69
+41-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:21:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:22:17-77
+43-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:22:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+48            android:name="androidx.core.content.FileProvider"
+48-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:28:13-62
+49            android:authorities="com.taphoamini.app.fileprovider"
+49-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:29:13-64
+50            android:exported="false"
+50-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:30:13-37
+51            android:grantUriPermissions="true" >
+51-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:31:13-47
+52            <meta-data
+52-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:32:13-34:64
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:33:17-67
+54                android:resource="@xml/file_paths" />
+54-->C:\Users\HawkDev\Downloads\tap-hoa-mini\android\app\src\main\AndroidManifest.xml:34:17-51
+55        </provider>
+56
+57        <activity
+57-->[:capacitor-mlkit-barcode-scanning] C:\Users\HawkDev\Downloads\tap-hoa-mini\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:75
+58            android:name="io.capawesome.capacitorjs.plugins.mlkit.barcodescanning.ScanActivity"
+58-->[:capacitor-mlkit-barcode-scanning] C:\Users\HawkDev\Downloads\tap-hoa-mini\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-96
+59            android:exported="false"
+59-->[:capacitor-mlkit-barcode-scanning] C:\Users\HawkDev\Downloads\tap-hoa-mini\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[:capacitor-mlkit-barcode-scanning] C:\Users\HawkDev\Downloads\tap-hoa-mini\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-72
+61        <!--
+62        Service for holding metadata. Cannot be instantiated.
+63        Metadata will be merged from other manifests.
+64        -->
+65        <service
+65-->[androidx.camera:camera-core:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\6c32f5643a732f95471aca800e4d3a46\transformed\camera-core-1.5.2\AndroidManifest.xml:29:9-33:78
+66            android:name="androidx.camera.core.impl.MetadataHolderService"
+66-->[androidx.camera:camera-core:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\6c32f5643a732f95471aca800e4d3a46\transformed\camera-core-1.5.2\AndroidManifest.xml:30:13-75
+67            android:enabled="false"
+67-->[androidx.camera:camera-core:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\6c32f5643a732f95471aca800e4d3a46\transformed\camera-core-1.5.2\AndroidManifest.xml:31:13-36
+68            android:exported="false" >
+68-->[androidx.camera:camera-core:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\6c32f5643a732f95471aca800e4d3a46\transformed\camera-core-1.5.2\AndroidManifest.xml:32:13-37
+69            <meta-data
+69-->[androidx.camera:camera-camera2:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\a166caf6910bb0c66910938c3f396a40\transformed\camera-camera2-1.5.2\AndroidManifest.xml:30:13-32:89
+70                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+70-->[androidx.camera:camera-camera2:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\a166caf6910bb0c66910938c3f396a40\transformed\camera-camera2-1.5.2\AndroidManifest.xml:31:17-103
+71                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+71-->[androidx.camera:camera-camera2:1.5.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\a166caf6910bb0c66910938c3f396a40\transformed\camera-camera2-1.5.2\AndroidManifest.xml:32:17-86
+72        </service>
+73        <!--
+74        This activity is an invisible delegate activity to start scanner activity
+75        and receive result, so it's unnecessary to support screen orientation and
+76        we can avoid any side effect from activity recreation in any case.
+77        -->
+78        <activity
+78-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\ec4773cdae104be11ca289d8579b31e8\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:15:9-20:20
+79            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+79-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\ec4773cdae104be11ca289d8579b31e8\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:16:13-107
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\ec4773cdae104be11ca289d8579b31e8\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:17:13-37
+81            android:screenOrientation="portrait" >
+81-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\ec4773cdae104be11ca289d8579b31e8\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:18:13-49
+82        </activity>
+83
+84        <service
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+85            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+86            android:directBootAware="true"
+86-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+88            <meta-data
+88-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+89-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\83599792409e310ff0e6814985afb80f\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.mlkit:vision-common:17.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\3f572cd9acca9055194110b3d88f350d\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+92-->[com.google.mlkit:vision-common:17.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\3f572cd9acca9055194110b3d88f350d\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.mlkit:vision-common:17.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\3f572cd9acca9055194110b3d88f350d\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+95                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+95-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+97        </service>
+98
+99        <provider
+99-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+100            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+100-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+101            android:authorities="com.taphoamini.app.mlkitinitprovider"
+101-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+102            android:exported="false"
+102-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+103            android:initOrder="99" />
+103-->[com.google.mlkit:common:18.11.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\b92601815b88c9a5148e37490bc49c91\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\c1b0052ae712299163f2612d6db27779\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\c1b0052ae712299163f2612d6db27779\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\c1b0052ae712299163f2612d6db27779\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\c1b0052ae712299163f2612d6db27779\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\535e9dd0a65eaa85bd344836d560144e\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\535e9dd0a65eaa85bd344836d560144e\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\535e9dd0a65eaa85bd344836d560144e\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+113
+114        <provider
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+115            android:name="androidx.startup.InitializationProvider"
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+116            android:authorities="com.taphoamini.app.androidx-startup"
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+117            android:exported="false" >
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\353d69426d62513a7e19e841051a3a44\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\14a3b51da1167f75215e7e32d2231e74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\14a3b51da1167f75215e7e32d2231e74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\14a3b51da1167f75215e7e32d2231e74\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+124            <meta-data
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+126                android:value="androidx.startup" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+127        </provider>
+128
+129        <receiver
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+130            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+131            android:directBootAware="false"
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+132            android:enabled="true"
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+133            android:exported="true"
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+134            android:permission="android.permission.DUMP" >
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+136                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+139                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+142                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+145                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\f95ab50c54d3211c648684c462933e30\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+146            </intent-filter>
+147        </receiver>
+148
+149        <service
+149-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+150            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+150-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+151            android:exported="false" >
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+152            <meta-data
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+153                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+154                android:value="cct" />
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\cbc0786e615026526014c6805c71c308\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+155        </service>
+156        <service
+156-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+157            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+157-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+158            android:exported="false"
+158-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+159            android:permission="android.permission.BIND_JOB_SERVICE" >
+159-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+160        </service>
+161
+162        <receiver
+162-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+163            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+164            android:exported="false" />
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HawkDev\.gradle\caches\8.14.3\transforms\abf8a834fba905ae75d6aa078cfc6976\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+165    </application>
+166
+167</manifest>

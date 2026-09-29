@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  touch-action: manipulation; /* bỏ double-tap-to-zoom, bấm nút phản hồi nhanh hơn trên Android */
+}
+
+body {
+  margin: 0;
+  background: #f5f7f6;
+  color: #1f2933;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: contain; /* tránh hiệu ứng "bounce" kéo cả trang khi cuộn hết nội dung */
+}
+
+.page-card {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.stat-card {
+  border-radius: 14px;
+  border: 1px solid #f0f0f0;
+}
+
+/* Recharts (biểu đồ Dashboard) mặc định set tabIndex trên phần tử SVG để hỗ
+   trợ điều hướng bàn phím -> khi chạm vào cột trên điện thoại (WebView
+   Android), phần tử này được focus và trình duyệt vẽ viền "focus ring" màu
+   cam/vàng bao quanh cả khung biểu đồ, trông như 1 border không mong muốn.
+   Tắt hẳn outline khi focus (bấm chọn cột vẫn hoạt động bình thường, chỉ bỏ
+   viền thừa). */
+.recharts-wrapper:focus,
+.recharts-wrapper *:focus,
+.recharts-surface:focus {
+  outline: none !important;
+}
+
+/* Rung nhẹ khi nhập sai mã PIN - dùng cho cả màn hình khoá app lẫn các modal đổi/tắt PIN. */
+@keyframes pin-shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-8px); }
+  40%, 60% { transform: translateX(8px); }
+}
+
