@@ -4,11 +4,11 @@
 
 <!-- TODO: Add project logo (e.g., `public/logo.png`) -->
 
-[![GitHub stars](https://img.shields.io/github/stars/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/thiennguyenk01/mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/mini-grocery-app/stargazers)
 
-[![GitHub forks](https://img.shields.io/github/forks/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/network)
+[![GitHub forks](https://img.shields.io/github/forks/thiennguyenk01/mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/mini-grocery-app/network)
 
-[![GitHub issues](https://img.shields.io/github/issues/thiennguyenk01/-mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/-mini-grocery-app/issues)
+[![GitHub issues](https://img.shields.io/github/issues/thiennguyenk01/mini-grocery-app?style=for-the-badge)](https://github.com/thiennguyenk01/mini-grocery-app/issues)
 
 [![GitHub license](https://img.shields.io/badge/license-UNLICENSED-blue.svg?style=for-the-badge)](LICENSE) <!-- TODO: Add an explicit LICENSE file (e.g., MIT, Apache) -->
 
@@ -84,8 +84,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/thiennguyenk01/-mini-grocery-app.git
-    cd -mini-grocery-app
+    git clone https://github.com/thiennguyenk01/mini-grocery-app.git
+    cd mini-grocery-app
     ```
 
 2.  **Install dependencies**
@@ -224,7 +224,7 @@ For native mobile deployment (e.g., to Google Play Store):
 
 We welcome contributions to the Mini Grocery App! If you're interested in improving the project, please consider:
 
--   Reporting bugs or suggesting features via [GitHub Issues](https://github.com/thiennguyenk01/-mini-grocery-app/issues).
+-   Reporting bugs or suggesting features via [GitHub Issues](https://github.com/thiennguyenk01/mini-grocery-app/issues).
 -   Submitting pull requests with improvements.
 
 ### Development Setup for Contributors
@@ -243,7 +243,7 @@ This project is currently **UNLICENSED**. Please choose and add a license (e.g.,
 
 ## 📞 Support & Contact
 
--   🐛 Issues: [GitHub Issues](https://github.com/thiennguyenk01/-mini-grocery-app/issues)
+-   🐛 Issues: [GitHub Issues](https://github.com/thiennguyenk01/mini-grocery-app/issues)
 
 ---
 
